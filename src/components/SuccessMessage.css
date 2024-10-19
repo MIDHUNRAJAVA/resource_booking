@@ -1,0 +1,16 @@
+.success-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    font-size: 28px;
+    color: #4CAF50; /* A softer, professional green */
+    background-color: #f0f8f7; /* Subtle background for contrast */
+    border: 1px solid #c7e2df; /* Light border to frame the message */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: 'Inter', sans-serif; /* Consistent with your project font */
+}

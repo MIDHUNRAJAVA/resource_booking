@@ -1,0 +1,71 @@
+/* src/pages/Labs.css */
+
+.labs-container {
+    padding: 20px;
+}
+
+.department-section {
+    margin-bottom: 20px;
+}
+
+.department-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.labs-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffefe; 
+    color: #8037C7;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    height: 120px;
+    width: 250px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.lab-item:hover {
+    background-color: #f0f0f0;
+}
+
+.lab-item.selected {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: black;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
